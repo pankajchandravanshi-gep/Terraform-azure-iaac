@@ -18,7 +18,8 @@ provider "azurerm" {
   features {}
 }
 
-
+#module "azurevm_DEVOPS-5650"{
+#source		= "../../modules/azure_vm"
 #Resource section
 
 resource "azurerm_virtual_machine" "azurevm"  {
