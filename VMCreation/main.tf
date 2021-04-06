@@ -38,14 +38,14 @@ vm_size               = var.config_vm
     } 
   
     storage_os_disk { 
-    name              = "F-Drive"
+    name              = "D-Drive"
     caching           =  var.access_disk    
     create_option     = "FromImage"
     managed_disk_type =  var.storage_type
     }
   
     os_profile {
-    computer_name  = "WINDOWSER042021"
+    computer_name  = "WINDOWSER062021"
     admin_username =  var.userid
     admin_password =  var.password
   }
