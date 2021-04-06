@@ -38,7 +38,7 @@ vm_size               = var.config_vm
     } 
   
     storage_os_disk { 
-    name              = "D-Drive"
+    name              = "E-Drive"
     caching           =  var.access_disk    
     create_option     = "FromImage"
     managed_disk_type =  var.storage_type
