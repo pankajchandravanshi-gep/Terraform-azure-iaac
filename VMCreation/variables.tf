@@ -1,7 +1,7 @@
 variable "name_winvm" {
   description = "The Name of Virtual Machine"
   type        = string
-  default     = "Windowsvm0421"
+  default     = "Windowsvm0621"
 }
 variable "config_vm" {
   description = "The Configuration of Virtual Machine"
