@@ -7,9 +7,9 @@ terraform {
     }
   }
   backend "azurerm" {
-    storage_account_name  = "#{tfstorageaccountname}#"
-    container_name        = "#{tfcontainername}#"
-    access_key            = "#{tfaccesskey}#"
+    storage_account_name  = "leotfstatefilestorage"
+    container_name        = "leotfstatefile"
+    access_key            = "Pq0sWYfA3+dI8bt91qPneRfF2q/SUppJeu+kpxSkg6EAZJMJ+U/wOJ5g6ydZXbXjXdCzd/vSpoJQ9/OONkuMNw=="
     key                   = "azure_vm.tfstate"
   }
  }
